@@ -59,6 +59,9 @@ const obs = new IntersectionObserver(function(entries) {
   if (ent.isIntersecting === true) {
     document.body.classList.remove('sticky');
   } 
+   if (ent.isIntersecting === true) {
+    document.body.classList.remove('sticky');
+  } 
 
 }, {
 
